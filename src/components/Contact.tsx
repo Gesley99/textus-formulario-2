@@ -53,6 +53,8 @@ const Contact = () => {
                   action="https://formsubmit.co/gesley98@gmail.com"
                   method="POST"
                 >
+                  {/* desativa o captcha */}
+                  <input type="hidden" name="_captcha" value="false" />
                   {/* redireciona para a página de obrigado após o envio (troque pela URL pública do seu site, se desejar) */}
                   <input type="hidden" name="_next" value="/obrigado" />
                   {/* assunto do e-mail recebido */}
