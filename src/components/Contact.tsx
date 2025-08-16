@@ -55,8 +55,8 @@ const Contact = () => {
                 >
                   {/* desativa o captcha */}
                   <input type="hidden" name="_captcha" value="false" />
-                  {/* redireciona para a página de obrigado após o envio (troque pela URL pública do seu site, se desejar) */}
-                  <input type="hidden" name="_next" value="/obrigado" />
+                  {/* redireciona para a página de obrigado após o envio */}
+                  <input type="hidden" name="_next" value="https://textusformulario2.netlify.app/obrigado" />
                   {/* assunto do e-mail recebido */}
                   <input type="hidden" name="_subject" value="Nova solicitação de orçamento - Site" />
                   {/* Como o Select abaixo não é <select> nativo, espelhamos o valor aqui: */}
