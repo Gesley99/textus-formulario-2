@@ -50,7 +50,7 @@ const Contact = () => {
               <CardContent className="space-y-6">
                 {/* FormSubmit: envia direto para o seu e-mail */}
                 <form
-                  action="https://formsubmit.co/trabalhoescrito99@gmail.com"
+                  action="https://formsubmit.co/gesley98@gmail.com"
                   method="POST"
                 >
                   {/* redireciona para a página de obrigado após o envio (troque pela URL pública do seu site, se desejar) */}
