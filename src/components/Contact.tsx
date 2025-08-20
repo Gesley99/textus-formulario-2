@@ -48,14 +48,9 @@ const Contact = () => {
               </CardHeader>
 
               <CardContent className="space-y-6">
-                {/* FormSubmit: envia direto para o seu e-mail */}
-                <form
-                  action="https://formsubmit.co/gesley98@gmail.com"
-                  method="POST"
-                >
-                  {/* desativa o captcha */}
-                  <input type="hidden" name="_captcha" value="false" />
-                  {/* redireciona para a página de obrigado após o envio */}
+                {/* Envia direto para o seu e-mail */}
+                <form class="form" action="obrigado.html" name="contact" netlify>
+                 {/* redireciona para a página de obrigado após o envio */}
                   <input type="hidden" name="_next" value="https://textusformulario2.netlify.app/obrigado" />
                   {/* assunto do e-mail recebido */}
                   <input type="hidden" name="_subject" value="Nova solicitação de orçamento - Site" />
